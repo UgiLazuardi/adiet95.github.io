@@ -1,0 +1,179 @@
+nav {
+    background-color: orange;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    border-color: black 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-top: -20px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    overflow-x: hidden;
+}
+
+.profile {
+    padding-top: 30px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+    transform: scale(1.1);
+}
+
+.logo {
+    height: 60px;
+    margin-top: -20px;
+    box-shadow: none;
+}
+
+li {
+    display: inline-flex;
+    float: right;
+    margin: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+header {
+    background-image: url(./img/bg01.jpg);
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    color: whitesmoke;
+    margin-top: 60px;
+    overflow-x: hidden;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: orange;
+}
+
+img {
+    height: 300px;
+    border: 5px plum;
+    border-radius: 50%;
+    box-shadow: 0 28px 26px rgba(0, 0, 0, 7);
+    transition: ease-in-out .8s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    text-align: center;
+    height: 400px;
+    width: auto;
+    background-color: orange;
+    padding: 50px;
+    overflow-x: auto;
+}
+
+#bio {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    width: auto;
+    
+}
+
+
+#education {
+    display: inline-flex;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.edu {
+    border-radius: 10%;
+}
+
+.education {
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: -40px;
+    color: orange;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+#experience {
+    display: inline-flex;
+    width: 100%;
+}
+
+.exp {
+    border-radius: 10%;
+}
+
+.exp2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.td2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    height:70px;
+    line-height:70px;
+    position:fixed;
+    bottom:0px;
+    text-align: right;
+    width:100%;
+}
+
+#skills {
+    display: inline-flexbox;
+    background-color:blanchedalmond;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skills{
+    border-radius: 10%;
+    height: 200px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 460px) {
+    header {
+        position: inherit;
+        width: 100%;
+    }
+
+    #education {
+        position: inherit;
+        display: inline;
+    }
+    
+    #experience {
+        position: inherit;
+    
+    }
+    img {
+        margin: -5% 0 25px -5%;
+        width: 100px;
+    }
+}
